@@ -71,7 +71,7 @@ export default class ImpactPredicted extends Component {
     // this.setState({country: name});
 
     try {
-      const response = await fetch("http://139.59.15.84:5000/getImpact",
+      const response = await fetch("http://139.59.15.84:5000/getImpactPredicted",
       {
         method: 'POST',
         headers: {

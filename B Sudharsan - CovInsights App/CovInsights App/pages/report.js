@@ -110,7 +110,7 @@ export default class Report extends Component {
         </View>
 
         <View style = {{  height:40, width: Dimensions.get('window').width-20, marginTop:30, flexDirection: 'row',justifyContent: 'center', alignItems: 'center'}}>
-            <Icon style={{ paddingLeft: 20, paddingVertical:10, borderBottomLeftRadius: 10, borderTopLeftRadius:10, height:40, backgroundColor: 'white'}} name="envelope" size={20} color="#000"/>
+            <Icon style={{ paddingLeft: 20, paddingVertical:10, borderBottomLeftRadius: 10, borderTopLeftRadius:10, height:45, backgroundColor: 'white'}} name="envelope" size={22} color="#000"/>
             <TextInput 
                 ref={input => { this.textInput = input }}
                 style={{ flex: 1,height: 40, borderBottomRightRadius:10, borderTopRightRadius:10, backgroundColor: 'rgba(21,150,212,.1)',fontSize: 14, paddingLeft:15, marginLeft:10}}
@@ -120,7 +120,7 @@ export default class Report extends Component {
             />
         </View>
 
-        <TouchableOpacity onPress={()=> this.submitMail()} style={{ justifyContent:'center', alignItems:'center', marginTop:30, backgroundColor:'rgba(21,150,212,0.8)', marginHorizontal: Dimensions.get('window').width-250, padding:10, elevation:1, borderRadius:30}}>
+        <TouchableOpacity onPress={()=> this.submitMail()} style={{ justifyContent:'center', alignItems:'center', marginTop:30, backgroundColor:'rgba(21,150,212,0.8)', marginHorizontal: 80, padding:10, elevation:1, borderRadius:30}}>
             <Text style={{ color:'white', textAlign:'center', fontWeight:'bold'}}>
                 Subscribe
             </Text>
