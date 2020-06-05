@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+
+body {margin: 0;}
+
+header {
+  background-color: lightgreen;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-top: 45px;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>The COVID19 Page</h2>
+</header>
+
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand">Covid19 Project</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="{{ url_for('base') }}">Home</a></li>
+      <li  class="active"><a href="{{ url_for('testcenters') }}">Test Centers</a></li>
+      <li><a href="#">Dummy</a></li>
+    </ul>
+  </div>
+</nav>
+
+<br>
+{% block content %}
+<div  align='center'>  
+    <h1>Search:</h1>
+    <form action="" method="post">
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.state_ut.label }}<br>
+            {{ form.state_ut(size=32) }}<br>
+            {% for error in form.state_ut.errors %}
+            <span style="color: red;">[{{ error }}]</span>
+            {% endfor %}
+        </p>
+
+        <p>{{ form.submit() }}</p>
+    </form>
+
+    <h3>{{ state }}</h3>
+    {% for i in centers %}
+    <b>{{ i }}</b>
+    <a href="{{ url_for('map', place=i) }}">View</a><br><br>
+    {% endfor %}
+
+{% endblock %}    
+</div>
+<footer>
+  <p>By Subham Kumar Sahoo (Corona Project)</p>
+</footer>
+
+</body>
+
+</html>
