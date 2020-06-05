@@ -1,0 +1,373 @@
+Economy,Sector,GDP,Employment
+Australia,"Agriculture, Mining and Quarrying",-0.59,-5.13
+Australia,"Business, Trade, Personal, and Public Services",-3.55,-5.87
+Australia,Hotel and restaurants and Other Personal Services,-0.75,-15.38
+Australia,"Light/Heavy Manufacturing, Utilities, and Construction",-1.01,-5.94
+Australia,Transport services,-0.64,-15.29
+Australia,_All,-6.54,-7.39
+Austria,"Agriculture, Mining and Quarrying",-0.08,-4.89
+Austria,"Business, Trade, Personal, and Public Services",-3,-5.48
+Austria,Hotel and restaurants and Other Personal Services,-1.24,-11.26
+Austria,"Light/Heavy Manufacturing, Utilities, and Construction",-1.3,-4.72
+Austria,Transport services,-0.86,-18.08
+Austria,_All,-6.48,-6.6
+Belgium,"Agriculture, Mining and Quarrying",-0.04,-4.85
+Belgium,"Business, Trade, Personal, and Public Services",-3.56,-5.5
+Belgium,Hotel and restaurants and Other Personal Services,-0.49,-7.38
+Belgium,"Light/Heavy Manufacturing, Utilities, and Construction",-1.17,-5.25
+Belgium,Transport services,-0.4,-8.74
+Belgium,_All,-5.65,-5.76
+Bulgaria,"Agriculture, Mining and Quarrying",-0.36,-4.96
+Bulgaria,"Business, Trade, Personal, and Public Services",-3.49,-6.25
+Bulgaria,Hotel and restaurants and Other Personal Services,-0.8,-11.73
+Bulgaria,"Light/Heavy Manufacturing, Utilities, and Construction",-1.35,-5.46
+Bulgaria,Transport services,-1.75,-28.74
+Bulgaria,_All,-7.75,-7.29
+Brazil,"Agriculture, Mining and Quarrying",-0.43,-5.28
+Brazil,"Business, Trade, Personal, and Public Services",-3.81,-6.31
+Brazil,Hotel and restaurants and Other Personal Services,-0.51,-6.49
+Brazil,"Light/Heavy Manufacturing, Utilities, and Construction",-1.14,-6.14
+Brazil,Transport services,-0.29,-6.16
+Brazil,_All,-6.18,-6.18
+Canada,"Agriculture, Mining and Quarrying",-0.62,-5.63
+Canada,"Business, Trade, Personal, and Public Services",-3.47,-5.87
+Canada,Hotel and restaurants and Other Personal Services,-0.54,-10.76
+Canada,"Light/Heavy Manufacturing, Utilities, and Construction",-1.25,-5.72
+Canada,Transport services,-0.25,-6.6
+Canada,_All,-6.12,-6.72
+Switzerland,"Agriculture, Mining and Quarrying",-0.05,-5.65
+Switzerland,"Business, Trade, Personal, and Public Services",-3.4,-5.25
+Switzerland,Hotel and restaurants and Other Personal Services,-0.55,-13.92
+Switzerland,"Light/Heavy Manufacturing, Utilities, and Construction",-1.36,-5.19
+Switzerland,Transport services,-0.45,-11.81
+Switzerland,_All,-5.8,-5.85
+People's Republic of China,"Agriculture, Mining and Quarrying",-0.68,-4.82
+People's Republic of China,"Business, Trade, Personal, and Public Services",-2.03,-4.8
+People's Republic of China,Hotel and restaurants and Other Personal Services,-0.3,-6.25
+People's Republic of China,"Light/Heavy Manufacturing, Utilities, and Construction",-1.78,-5.07
+People's Republic of China,Transport services,-0.3,-6.53
+People's Republic of China,_All,-5.08,-5.25
+Cyprus,"Agriculture, Mining and Quarrying",-0.13,-5.2
+Cyprus,"Business, Trade, Personal, and Public Services",-5.23,-8.7
+Cyprus,Hotel and restaurants and Other Personal Services,-2.26,-14.3
+Cyprus,"Light/Heavy Manufacturing, Utilities, and Construction",-0.87,-6.41
+Cyprus,Transport services,-2.44,-61.52
+Cyprus,_All,-10.94,-12.37
+Czech Republic,"Agriculture, Mining and Quarrying",-0.19,-5.71
+Czech Republic,"Business, Trade, Personal, and Public Services",-2.86,-5.63
+Czech Republic,Hotel and restaurants and Other Personal Services,-0.52,-9.63
+Czech Republic,"Light/Heavy Manufacturing, Utilities, and Construction",-1.87,-5.22
+Czech Republic,Transport services,-0.78,-15.25
+Czech Republic,_All,-6.22,-6.35
+Germany,"Agriculture, Mining and Quarrying",-0.05,-5.08
+Germany,"Business, Trade, Personal, and Public Services",-3.16,-5.52
+Germany,Hotel and restaurants and Other Personal Services,-0.54,-8.71
+Germany,"Light/Heavy Manufacturing, Utilities, and Construction",-1.62,-5.23
+Germany,Transport services,-0.3,-7.05
+Germany,_All,-5.67,-5.86
+Denmark,"Agriculture, Mining and Quarrying",-0.2,-4.67
+Denmark,"Business, Trade, Personal, and Public Services",-3.41,-5.47
+Denmark,Hotel and restaurants and Other Personal Services,-0.4,-5.73
+Denmark,"Light/Heavy Manufacturing, Utilities, and Construction",-1.07,-5.16
+Denmark,Transport services,-0.32,-5.72
+Denmark,_All,-5.4,-5.43
+Spain,"Agriculture, Mining and Quarrying",-0.16,-5.9
+Spain,"Business, Trade, Personal, and Public Services",-3.37,-5.82
+Spain,Hotel and restaurants and Other Personal Services,-1.39,-12.42
+Spain,"Light/Heavy Manufacturing, Utilities, and Construction",-1.37,-5.63
+Spain,Transport services,-0.88,-19.03
+Spain,_All,-7.17,-7.63
+Estonia,"Agriculture, Mining and Quarrying",-0.19,-4.96
+Estonia,"Business, Trade, Personal, and Public Services",-3.13,-5.73
+Estonia,Hotel and restaurants and Other Personal Services,-0.75,-9.28
+Estonia,"Light/Heavy Manufacturing, Utilities, and Construction",-1.41,-5.07
+Estonia,Transport services,-0.84,-11.41
+Estonia,_All,-6.32,-6.44
+Finland,"Agriculture, Mining and Quarrying",-0.18,-5.46
+Finland,"Business, Trade, Personal, and Public Services",-3.48,-5.96
+Finland,Hotel and restaurants and Other Personal Services,-0.33,-6.91
+Finland,"Light/Heavy Manufacturing, Utilities, and Construction",-1.59,-5.49
+Finland,Transport services,-0.64,-12.18
+Finland,_All,-6.21,-6.27
+France,"Agriculture, Mining and Quarrying",-0.08,-4.31
+France,"Business, Trade, Personal, and Public Services",-3.87,-5.73
+France,Hotel and restaurants and Other Personal Services,-0.45,-7.1
+France,"Light/Heavy Manufacturing, Utilities, and Construction",-1.05,-5.36
+France,Transport services,-0.56,-13.64
+France,_All,-6.01,-6.14
+United Kingdom,"Agriculture, Mining and Quarrying",-0.1,-5.47
+United Kingdom,"Business, Trade, Personal, and Public Services",-3.56,-5.63
+United Kingdom,Hotel and restaurants and Other Personal Services,-1.06,-9.07
+United Kingdom,"Light/Heavy Manufacturing, Utilities, and Construction",-1.04,-5.45
+United Kingdom,Transport services,-0.28,-6.99
+United Kingdom,_All,-6.03,-6.04
+Greece,"Agriculture, Mining and Quarrying",-0.24,-5.26
+Greece,"Business, Trade, Personal, and Public Services",-3.81,-5.86
+Greece,Hotel and restaurants and Other Personal Services,-1.05,-9.03
+Greece,"Light/Heavy Manufacturing, Utilities, and Construction",-1.02,-5.97
+Greece,Transport services,-2.28,-16.89
+Greece,_All,-8.4,-6.84
+Croatia,"Agriculture, Mining and Quarrying",-0.38,-5.28
+Croatia,"Business, Trade, Personal, and Public Services",-3.51,-6.21
+Croatia,Hotel and restaurants and Other Personal Services,-1.17,-13.53
+Croatia,"Light/Heavy Manufacturing, Utilities, and Construction",-1.23,-5.33
+Croatia,Transport services,-1.18,-24.58
+Croatia,_All,-7.47,-6.42
+Hungary,"Agriculture, Mining and Quarrying",-0.24,-5.34
+Hungary,"Business, Trade, Personal, and Public Services",-3.16,-5.94
+Hungary,Hotel and restaurants and Other Personal Services,-0.56,-9.42
+Hungary,"Light/Heavy Manufacturing, Utilities, and Construction",-1.68,-5.4
+Hungary,Transport services,-1.4,-23.78
+Hungary,_All,-7.04,-6.94
+Indonesia,"Agriculture, Mining and Quarrying",-0.25,-0.85
+Indonesia,"Business, Trade, Personal, and Public Services",-0.14,-0.4
+Indonesia,Hotel and restaurants and Other Personal Services,-0.2,-3.87
+Indonesia,"Light/Heavy Manufacturing, Utilities, and Construction",-0.29,-0.92
+Indonesia,Transport services,-0.07,-1.01
+Indonesia,_All,-0.95,-1.12
+India,"Agriculture, Mining and Quarrying",-0.06,-0.22
+India,"Business, Trade, Personal, and Public Services",-0.16,-0.33
+India,Hotel and restaurants and Other Personal Services,-0.1,-2.19
+India,"Light/Heavy Manufacturing, Utilities, and Construction",-0.11,-0.43
+India,Transport services,-0.08,-0.91
+India,_All,-0.5,-0.42
+Ireland,"Agriculture, Mining and Quarrying",-0.09,-5.86
+Ireland,"Business, Trade, Personal, and Public Services",-2.33,-4.62
+Ireland,Hotel and restaurants and Other Personal Services,-0.34,-8.52
+Ireland,"Light/Heavy Manufacturing, Utilities, and Construction",-1.86,-6.07
+Ireland,Transport services,-0.83,-19.71
+Ireland,_All,-5.44,-6.15
+Italy,"Agriculture, Mining and Quarrying",-0.14,-5.19
+Italy,"Business, Trade, Personal, and Public Services",-3.45,-5.82
+Italy,Hotel and restaurants and Other Personal Services,-0.73,-8.92
+Italy,"Light/Heavy Manufacturing, Utilities, and Construction",-1.23,-5.2
+Italy,Transport services,-0.62,-11.23
+Italy,_All,-6.17,-6.25
+Japan,"Agriculture, Mining and Quarrying",-0.08,-5.17
+Japan,"Business, Trade, Personal, and Public Services",-3.11,-5.38
+Japan,Hotel and restaurants and Other Personal Services,-0.46,-6.3
+Japan,"Light/Heavy Manufacturing, Utilities, and Construction",-1.43,-5.29
+Japan,Transport services,-0.37,-7.64
+Japan,_All,-5.45,-5.6
+Republic of Korea,"Agriculture, Mining and Quarrying",-0.12,-5.11
+Republic of Korea,"Business, Trade, Personal, and Public Services",-2.57,-5.26
+Republic of Korea,Hotel and restaurants and Other Personal Services,-0.57,-7.31
+Republic of Korea,"Light/Heavy Manufacturing, Utilities, and Construction",-1.89,-5.04
+Republic of Korea,Transport services,-0.27,-10.25
+Republic of Korea,_All,-5.42,-5.8
+Lithuania,"Agriculture, Mining and Quarrying",-0.16,-4.22
+Lithuania,"Business, Trade, Personal, and Public Services",-2.78,-5.87
+Lithuania,Hotel and restaurants and Other Personal Services,-0.43,-11.2
+Lithuania,"Light/Heavy Manufacturing, Utilities, and Construction",-1.45,-5.03
+Lithuania,Transport services,-1.2,-10.65
+Lithuania,_All,-6.01,-6.2
+Luxembourg,"Agriculture, Mining and Quarrying",-0.02,-3.76
+Luxembourg,"Business, Trade, Personal, and Public Services",-3.31,-4.39
+Luxembourg,Hotel and restaurants and Other Personal Services,-0.85,-13.72
+Luxembourg,"Light/Heavy Manufacturing, Utilities, and Construction",-0.62,-5.26
+Luxembourg,Transport services,-0.91,-30.91
+Luxembourg,_All,-5.7,-7.16
+Latvia,"Agriculture, Mining and Quarrying",-0.2,-4.72
+Latvia,"Business, Trade, Personal, and Public Services",-3.74,-6.13
+Latvia,Hotel and restaurants and Other Personal Services,-0.43,-9.1
+Latvia,"Light/Heavy Manufacturing, Utilities, and Construction",-1.21,-5.31
+Latvia,Transport services,-2.56,-32.73
+Latvia,_All,-8.14,-7.27
+Mexico,"Agriculture, Mining and Quarrying",-0.26,-1.81
+Mexico,"Business, Trade, Personal, and Public Services",-0.35,-0.56
+Mexico,Hotel and restaurants and Other Personal Services,-0.01,-0.08
+Mexico,"Light/Heavy Manufacturing, Utilities, and Construction",-0.58,-2.16
+Mexico,Transport services,-0.04,-0.78
+Mexico,_All,-1.24,-1.13
+Malta,"Agriculture, Mining and Quarrying",-0.05,-5.01
+Malta,"Business, Trade, Personal, and Public Services",-3.61,-5.58
+Malta,Hotel and restaurants and Other Personal Services,-2.45,-14.7
+Malta,"Light/Heavy Manufacturing, Utilities, and Construction",-0.79,-4.99
+Malta,Transport services,-0.67,-11.12
+Malta,_All,-7.58,-7.62
+Netherlands,"Agriculture, Mining and Quarrying",-0.16,-4.91
+Netherlands,"Business, Trade, Personal, and Public Services",-3.75,-5.49
+Netherlands,Hotel and restaurants and Other Personal Services,-0.31,-6.18
+Netherlands,"Light/Heavy Manufacturing, Utilities, and Construction",-0.97,-5.1
+Netherlands,Transport services,-0.62,-14.68
+Netherlands,_All,-5.81,-5.82
+Norway,"Agriculture, Mining and Quarrying",-0.86,-3.73
+Norway,"Business, Trade, Personal, and Public Services",-2.99,-5.48
+Norway,Hotel and restaurants and Other Personal Services,-0.28,-6.02
+Norway,"Light/Heavy Manufacturing, Utilities, and Construction",-0.95,-5.19
+Norway,Transport services,-0.55,-6.74
+Norway,_All,-5.62,-4.64
+Poland,"Agriculture, Mining and Quarrying",-0.34,-5.43
+Poland,"Business, Trade, Personal, and Public Services",-3.69,-6.52
+Poland,Hotel and restaurants and Other Personal Services,-0.74,-19.32
+Poland,"Light/Heavy Manufacturing, Utilities, and Construction",-2.02,-5.86
+Poland,Transport services,-2.01,-40.79
+Poland,_All,-8.81,-8.86
+Portugal,"Agriculture, Mining and Quarrying",-0.14,-5.42
+Portugal,"Business, Trade, Personal, and Public Services",-3.45,-5.79
+Portugal,Hotel and restaurants and Other Personal Services,-1.13,-10.5
+Portugal,"Light/Heavy Manufacturing, Utilities, and Construction",-1.19,-5.34
+Portugal,Transport services,-1.23,-21.22
+Portugal,_All,-7.15,-6.67
+Romania,"Agriculture, Mining and Quarrying",-0.26,-4.38
+Romania,"Business, Trade, Personal, and Public Services",-2.33,-4.86
+Romania,Hotel and restaurants and Other Personal Services,-0.46,-7.32
+Romania,"Light/Heavy Manufacturing, Utilities, and Construction",-1.69,-5.12
+Romania,Transport services,-0.69,-8.1
+Romania,_All,-5.42,-5.16
+Russia,"Agriculture, Mining and Quarrying",-0.6,-0.86
+Russia,"Business, Trade, Personal, and Public Services",-0.46,-0.72
+Russia,Hotel and restaurants and Other Personal Services,-0.03,-1
+Russia,"Light/Heavy Manufacturing, Utilities, and Construction",-0.38,-1.02
+Russia,Transport services,-0.36,-5.62
+Russia,_All,-1.84,-1.08
+Slovak Republic,"Agriculture, Mining and Quarrying",-0.18,-4.97
+Slovak Republic,"Business, Trade, Personal, and Public Services",-2.48,-5.14
+Slovak Republic,Hotel and restaurants and Other Personal Services,-0.65,-10.1
+Slovak Republic,"Light/Heavy Manufacturing, Utilities, and Construction",-1.79,-5.01
+Slovak Republic,Transport services,-0.87,-12.99
+Slovak Republic,_All,-5.96,-5.98
+Slovenia,"Agriculture, Mining and Quarrying",-0.12,-4.68
+Slovenia,"Business, Trade, Personal, and Public Services",-3.02,-5.8
+Slovenia,Hotel and restaurants and Other Personal Services,-0.43,-7.25
+Slovenia,"Light/Heavy Manufacturing, Utilities, and Construction",-1.61,-5.01
+Slovenia,Transport services,-0.89,-17.16
+Slovenia,_All,-6.08,-6.07
+Sweden,"Agriculture, Mining and Quarrying",-0.09,-5.48
+Sweden,"Business, Trade, Personal, and Public Services",-3.79,-5.94
+Sweden,Hotel and restaurants and Other Personal Services,-0.36,-7.59
+Sweden,"Light/Heavy Manufacturing, Utilities, and Construction",-1.37,-5.69
+Sweden,Transport services,-0.37,-7.46
+Sweden,_All,-5.98,-6.12
+Turkey,"Agriculture, Mining and Quarrying",-0.5,-6.7
+Turkey,"Business, Trade, Personal, and Public Services",-3.26,-6.88
+Turkey,Hotel and restaurants and Other Personal Services,-0.51,-8.58
+Turkey,"Light/Heavy Manufacturing, Utilities, and Construction",-1.83,-5.77
+Turkey,Transport services,-1.66,-19.25
+Turkey,_All,-7.77,-7.09
+"Taipei,China","Agriculture, Mining and Quarrying",-0.02,-0.96
+"Taipei,China","Business, Trade, Personal, and Public Services",-0.5,-1.07
+"Taipei,China",Hotel and restaurants and Other Personal Services,-0.47,-5.98
+"Taipei,China","Light/Heavy Manufacturing, Utilities, and Construction",-1.21,-2.62
+"Taipei,China",Transport services,-0.31,-10.79
+"Taipei,China",_All,-2.5,-2.71
+United States,"Agriculture, Mining and Quarrying",-0.16,-5.23
+United States,"Business, Trade, Personal, and Public Services",-3.57,-5.23
+United States,Hotel and restaurants and Other Personal Services,-0.48,-6.31
+United States,"Light/Heavy Manufacturing, Utilities, and Construction",-1.04,-5.43
+United States,Transport services,-0.36,-10.68
+United States,_All,-5.6,-5.59
+Bangladesh,"Agriculture, Mining and Quarrying",-0.05,-0.33
+Bangladesh,"Business, Trade, Personal, and Public Services",-0.11,-0.21
+Bangladesh,Hotel and restaurants and Other Personal Services,-0.02,-0.2
+Bangladesh,"Light/Heavy Manufacturing, Utilities, and Construction",-0.24,-0.95
+Bangladesh,Transport services,-0.02,-0.23
+Bangladesh,_All,-0.44,-0.44
+Malaysia,"Agriculture, Mining and Quarrying",-0.34,-1.24
+Malaysia,"Business, Trade, Personal, and Public Services",-0.63,-1.5
+Malaysia,Hotel and restaurants and Other Personal Services,-0.56,-11.54
+Malaysia,"Light/Heavy Manufacturing, Utilities, and Construction",-0.47,-1.53
+Malaysia,Transport services,-0.23,-6.1
+Malaysia,_All,-2.23,-2.29
+Philippines,"Agriculture, Mining and Quarrying",-0.16,-1.58
+Philippines,"Business, Trade, Personal, and Public Services",-0.51,-0.97
+Philippines,Hotel and restaurants and Other Personal Services,-0.4,-10.03
+Philippines,"Light/Heavy Manufacturing, Utilities, and Construction",-0.43,-1.23
+Philippines,Transport services,-0.12,-3.36
+Philippines,_All,-1.62,-1.69
+Thailand,"Agriculture, Mining and Quarrying",-0.23,-2.82
+Thailand,"Business, Trade, Personal, and Public Services",-1.14,-2.33
+Thailand,Hotel and restaurants and Other Personal Services,-1.99,-23.27
+Thailand,"Light/Heavy Manufacturing, Utilities, and Construction",-0.71,-2.71
+Thailand,Transport services,-0.57,-16.33
+Thailand,_All,-4.64,-4.1
+Viet Nam,"Agriculture, Mining and Quarrying",-0.43,-2.28
+Viet Nam,"Business, Trade, Personal, and Public Services",-0.52,-1.34
+Viet Nam,Hotel and restaurants and Other Personal Services,-0.46,-9.84
+Viet Nam,"Light/Heavy Manufacturing, Utilities, and Construction",-1.02,-1.95
+Viet Nam,Transport services,-0.49,-13.86
+Viet Nam,_All,-2.92,-2.73
+Kazakhstan,"Agriculture, Mining and Quarrying",-0.74,-0.64
+Kazakhstan,"Business, Trade, Personal, and Public Services",-0.4,-0.72
+Kazakhstan,Hotel and restaurants and Other Personal Services,-0.07,-1.52
+Kazakhstan,"Light/Heavy Manufacturing, Utilities, and Construction",-0.3,-1.18
+Kazakhstan,Transport services,-0.46,-3.05
+Kazakhstan,_All,-1.98,-0.84
+Mongolia,"Agriculture, Mining and Quarrying",-1.28,-1.4
+Mongolia,"Business, Trade, Personal, and Public Services",-0.49,-1.18
+Mongolia,Hotel and restaurants and Other Personal Services,-0.25,-10.8
+Mongolia,"Light/Heavy Manufacturing, Utilities, and Construction",-0.2,-1.04
+Mongolia,Transport services,-0.51,-11.02
+Mongolia,_All,-2.73,-2.33
+Sri Lanka,"Agriculture, Mining and Quarrying",-0.14,-1.44
+Sri Lanka,"Business, Trade, Personal, and Public Services",-0.59,-1.02
+Sri Lanka,Hotel and restaurants and Other Personal Services,-0.98,-12.97
+Sri Lanka,"Light/Heavy Manufacturing, Utilities, and Construction",-0.43,-1.74
+Sri Lanka,Transport services,-1.31,-11.53
+Sri Lanka,_All,-3.45,-2.55
+Pakistan,"Agriculture, Mining and Quarrying",-0.1,-0.4
+Pakistan,"Business, Trade, Personal, and Public Services",-0.08,-0.17
+Pakistan,Hotel and restaurants and Other Personal Services,-0.01,-0.17
+Pakistan,"Light/Heavy Manufacturing, Utilities, and Construction",-0.07,-0.21
+Pakistan,Transport services,-0.02,-0.25
+Pakistan,_All,-0.28,-0.3
+Fiji,"Agriculture, Mining and Quarrying",-0.4,-3.55
+Fiji,"Business, Trade, Personal, and Public Services",-1.6,-3.25
+Fiji,Hotel and restaurants and Other Personal Services,-3.39,-34.07
+Fiji,"Light/Heavy Manufacturing, Utilities, and Construction",-0.59,-2.59
+Fiji,Transport services,-1.61,-15.4
+Fiji,_All,-7.59,-4.55
+Lao People's Democratic Republic,"Agriculture, Mining and Quarrying",-0.35,-1.09
+Lao People's Democratic Republic,"Business, Trade, Personal, and Public Services",-0.36,-0.96
+Lao People's Democratic Republic,Hotel and restaurants and Other Personal Services,-0.5,-12.97
+Lao People's Democratic Republic,"Light/Heavy Manufacturing, Utilities, and Construction",-0.44,-1.74
+Lao People's Democratic Republic,Transport services,-0.38,-9.89
+Lao People's Democratic Republic,_All,-2.02,-1.7
+Brunei Darussalam,"Agriculture, Mining and Quarrying",-1.3,-0.33
+Brunei Darussalam,"Business, Trade, Personal, and Public Services",-0.11,-0.52
+Brunei Darussalam,Hotel and restaurants and Other Personal Services,-0.22,-12.34
+Brunei Darussalam,"Light/Heavy Manufacturing, Utilities, and Construction",-0.38,-0.85
+Brunei Darussalam,Transport services,-0.08,-5.27
+Brunei Darussalam,_All,-2.09,-0.92
+Bhutan,"Agriculture, Mining and Quarrying",-0.07,-0.33
+Bhutan,"Business, Trade, Personal, and Public Services",-0.15,-0.62
+Bhutan,Hotel and restaurants and Other Personal Services,-0.16,-4.11
+Bhutan,"Light/Heavy Manufacturing, Utilities, and Construction",-0.28,-0.32
+Bhutan,Transport services,-0.12,-1.81
+Bhutan,_All,-0.79,-0.55
+Kyrgyz Republic,"Agriculture, Mining and Quarrying",-0.1,-0.57
+Kyrgyz Republic,"Business, Trade, Personal, and Public Services",-0.54,-1.52
+Kyrgyz Republic,Hotel and restaurants and Other Personal Services,-0.02,-0.61
+Kyrgyz Republic,"Light/Heavy Manufacturing, Utilities, and Construction",-0.33,-1.28
+Kyrgyz Republic,Transport services,-1.2,-11.03
+Kyrgyz Republic,_All,-2.19,-1.27
+Cambodia,"Agriculture, Mining and Quarrying",-0.89,-3.51
+Cambodia,"Business, Trade, Personal, and Public Services",-0.87,-3.25
+Cambodia,Hotel and restaurants and Other Personal Services,-2.39,-28.73
+Cambodia,"Light/Heavy Manufacturing, Utilities, and Construction",-0.85,-2.56
+Cambodia,Transport services,-2.43,-41.71
+Cambodia,_All,-7.43,-4.07
+Maldives,"Agriculture, Mining and Quarrying",-0.33,-13.12
+Maldives,"Business, Trade, Personal, and Public Services",-2.35,-10.54
+Maldives,Hotel and restaurants and Other Personal Services,-6.77,-39.7
+Maldives,"Light/Heavy Manufacturing, Utilities, and Construction",-2.82,-8.63
+Maldives,Transport services,-1.9,-24.82
+Maldives,_All,-14.17,-12.69
+Nepal,"Agriculture, Mining and Quarrying",-0.05,-0.17
+Nepal,"Business, Trade, Personal, and Public Services",-0.15,-0.5
+Nepal,Hotel and restaurants and Other Personal Services,-0.38,-7.1
+Nepal,"Light/Heavy Manufacturing, Utilities, and Construction",-0.04,-0.36
+Nepal,Transport services,-0.2,-1.82
+Nepal,_All,-0.82,-0.52
+Singapore,"Agriculture, Mining and Quarrying",0,-1.09
+Singapore,"Business, Trade, Personal, and Public Services",-1,-1.71
+Singapore,Hotel and restaurants and Other Personal Services,-0.16,-2.81
+Singapore,"Light/Heavy Manufacturing, Utilities, and Construction",-0.57,-2.03
+Singapore,Transport services,-0.88,-12.81
+Singapore,_All,-2.61,-2.85
+"Hong Kong, China","Agriculture, Mining and Quarrying",0,-1.2
+"Hong Kong, China","Business, Trade, Personal, and Public Services",-1.19,-1.4
+"Hong Kong, China",Hotel and restaurants and Other Personal Services,-0.2,-1.6
+"Hong Kong, China","Light/Heavy Manufacturing, Utilities, and Construction",-0.06,-0.78
+"Hong Kong, China",Transport services,-1.29,-22.3
+"Hong Kong, China",_All,-2.74,-3.07
