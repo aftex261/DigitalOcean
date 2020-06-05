@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>COVID-19 Analysis</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
+    <link rel="stylesheet" href="/static/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/animate.css">
+    
+    <link rel="stylesheet" href="/static/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="/static/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/static/css/magnific-popup.css">
+
+    <link rel="stylesheet" href="/static/css/aos.css">
+
+    <link rel="stylesheet" href="/static/css/ionicons.min.css">
+
+    <link rel="stylesheet" href="/static/css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="/static/css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="/static/css/flaticon.css">
+    <link rel="stylesheet" href="/static/css/icomoon.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+  </head>
+  <body>
+    
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="{{ url_for('base') }}"><i class="flaticon-pharmacy"></i><span>Covid-19 Analysis</span></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="{{ url_for('base') }}" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="{{ url_for('news') }}" class="nav-link">Live Updates</a></li>
+          <li class="nav-item"><a href="{{ url_for('testcenters') }}" class="nav-link">Test Centers</a></li>
+          <li class="nav-item"><a href="{{ url_for('industry_trend_pred') }}" class="nav-link">Industry Trends</a></li>
+          <li class="nav-item"><a href="{{ url_for('statewise') }}" class="nav-link">State-wise stats</a></li>
+          <li class="nav-item"><a href="{{ url_for('about') }}" class="nav-link">About</a></li>
+          <!-- <li class="nav-item"><a href="departments.html" class="nav-link">Departments</a></li> -->
+          
+          <!-- <li class="nav-item"><a href="{{ url_for('contact') }}" class="nav-link">Contact</a></li> -->
+          <li class="nav-item cta"><a href="https://forms.gle/Zoy7fdPB59ztWmxF9" class="nav-link"><span>Subscribe/Feedback</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!-- END nav -->
+    
+    <div class="hero-wrap" style="background-image: url(/static/images/corona.jpg);background-attachment:fixed;">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
+          <div class="col-md-8 ftco-animate text-center">
+            <h1 class="mb-4">COVID-19 Analysis Dashboard</h1>
+            <p>Stay Home, Stay Safe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-services">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-md-4 ftco-animate py-5 nav-link-wrap">
+            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+              <a class="nav-link px-4 active" id="v-pills-master-tab" data-toggle="pill" href="#v-pills-master" role="tab" aria-controls="v-pills-master" aria-selected="true"><span class="mr-3 flaticon-cardiogram"></span> Live updates</a>
+
+              <a class="nav-link px-4" id="v-pills-buffet-tab" data-toggle="pill" href="#v-pills-buffet" role="tab" aria-controls="v-pills-buffet" aria-selected="false"><span class="mr-3 flaticon-neurology"></span> Test centers</a>
+
+              <a class="nav-link px-4" id="v-pills-fitness-tab" data-toggle="pill" href="#v-pills-fitness" role="tab" aria-controls="v-pills-fitness" aria-selected="false"><span class="mr-3 flaticon-stethoscope"></span> Industry trends</a>
+
+              <a class="nav-link px-4" id="v-pills-reception-tab" data-toggle="pill" href="#v-pills-reception" role="tab" aria-controls="v-pills-reception" aria-selected="false"><span class="mr-3 flaticon-tooth"></span> State-wise stats</a>
+
+              <a class="nav-link px-4" id="v-pills-sea-tab" data-toggle="pill" href="#v-pills-sea" role="tab" aria-controls="v-pills-sea" aria-selected="false"><span class="mr-3 flaticon-vision"></span> Upcoming service</a>
+
+              <a class="nav-link px-4" id="v-pills-spa-tab" data-toggle="pill" href="#v-pills-spa" role="tab" aria-controls="v-pills-spa" aria-selected="false"><span class="mr-3 flaticon-ambulance"></span> Upcoming service</a>
+            </div>
+          </div>
+          <div class="col-md-8 ftco-animate p-4 p-md-5 d-flex align-items-center">
+            
+            <div class="tab-content pl-md-5" id="v-pills-tabContent">
+
+              <div class="tab-pane fade show active py-5" id="v-pills-master" role="tabpanel" aria-labelledby="v-pills-master-tab">
+                <span class="icon mb-3 d-block flaticon-cardiogram"></span>
+                <h2 class="mb-4">Live updates</h2>
+                <p>Get world-wide live updates on COVID-19.</p>
+                
+                <p><a href="{{ url_for('news') }}" class="btn btn-primary">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-buffet" role="tabpanel" aria-labelledby="v-pills-buffet-tab">
+                <span class="icon mb-3 d-block flaticon-neurology"></span>
+                <h2 class="mb-4">Test centers</h2>
+                <p>Get a list of nearby Covid-19 test centers.</p>
+                <p>Get yourself checked.</p>
+                <p><a href="{{ url_for('testcenters') }}" class="btn btn-primary">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-fitness" role="tabpanel" aria-labelledby="v-pills-fitness-tab">
+                <span class="icon mb-3 d-block flaticon-stethoscope"></span>
+                <h2 class="mb-4"> Industry trends</h2>
+                <p>Get info about share market prices of various domains.</p>
+                <p>You will get future market trends for 2020.</p>
+
+                <p><a href="{{ url_for('industry_trend_pred') }}" class="btn btn-primary">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-reception" role="tabpanel" aria-labelledby="v-pills-reception-tab">
+                <span class="icon mb-3 d-block flaticon-vision"></span>
+                <h2 class="mb-4">State-wise stats</h2>
+                <p>State-wise COVID19 cases.</p>
+                
+                <p><a href="{{ url_for('statewise') }}" class="btn btn-primary">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-sea" role="tabpanel" aria-labelledby="v-pills-sea-tab">
+                <span class="icon mb-3 d-block flaticon-tooth"></span>
+                <h2 class="mb-4">State Map</h2>
+                <p>Stay tuned.....</p>
+                
+                <p><a href="{{ url_for('statemap') }}" class="btn btn-primary">Learn More</a></p>
+              </div>
+
+              <div class="tab-pane fade py-5" id="v-pills-spa" role="tabpanel" aria-labelledby="v-pills-spa-tab">
+                <span class="icon mb-3 d-block flaticon-ambulance"></span>
+                <h2 class="mb-4">Upcoming service</h2>
+                <p>Stay tuned.....</p>
+                
+                <p><a href="#" class="btn btn-primary">Learn More</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<section class="ftco-section ftco-counter img" id="section-counter" style="background-image: url(/static/images/bg_4.jpg);">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+            <h2 class="mb-4">World stats of Covid-19</h2>
+            <span class="subheading">Do not let these numbers grow. Stay safe.....</span>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-10">
+            <div class="row">
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="{{ list['confirmed'] }}">0</strong>
+                    <span>Confirmed Cases</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="{{ list['recovered'] }}">0</strong>
+                    <span>Recovered</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="{{ list['critical'] }}">0</strong>
+                    <span>Critical</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 d-flex justify-content-center counter-wrap ftco-animate">
+                <div class="block-18 text-center">
+                  <div class="text">
+                    <strong class="number" data-number="{{ list['deaths'] }}">0</strong>
+                    <span>Deaths</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section class="ftco-section testimony-section">
+      <div class="container">
+      	<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Messages</h2>
+          </div>
+        </div>
+        <div class="row">
+        	<div class="col-md-12 ftco-animate">
+            <div class="carousel-testimony owl-carousel">
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(/static/images/who.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Today I have a message for young people: You are not invincible, this virus could put you in hospital for weeks or even kill you. Even if you don't get sick the choices you make about where you go could be the difference between life and death for someone else.</p>
+                    <p class="name">WHO</p>
+                    <span class="position">Organization</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(/static/images/modi.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">Exercise restraint by staying at home and not stepping out as much as possible during the Coronavirus pandemic. Keeping in mind economic challenges arising out of Coronavirus pandemic, government has a decided to constitute COVID-19 Economic Response Task Force led by Finance Minister</p>
+                    <p class="name">Narendra Modi</p>
+                    <span class="position">PM of India</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(/static/images/unicef.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">A global approach is the only way to fight COVID-19, the UN says as it launches humanitarian response plan.</p>
+                    <p class="name">UNICEF</p>
+                    <span class="position">Federation</span>
+                  </div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="testimony-wrap text-center">
+                  <div class="user-img mb-5" style="background-image: url(/static/images/doc.jpg)">
+                    <span class="quote d-flex align-items-center justify-content-center">
+                      <i class="icon-quote-left"></i>
+                    </span>
+                  </div>
+                  <div class="text">
+                    <p class="mb-5">We stayed at work for you, you stay at work for us.</p>
+                    <p class="name">Doctors</p>
+                    <span class="position">The real heroes</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ftco-section bg-light">
+      <div class="container">
+        <div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-4">Recent from blog</h2>
+          </div>
+        </div>
+        <div class="row d-flex">
+          <div class="col-md-6 ftco-animate">
+            <div class="blog-entry align-self-stretch d-flex">
+              <a href="blog-single.html" class="block-20 order-md-last" style="background-image: url('/static/images/image_1.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">News</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div>
+                <h3 class="heading mt-3"><a href="https://economictimes.indiatimes.com/coronavirus">Economic Times updates</a></h3>
+                <p>Be up to date with Economic Times.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ftco-animate">
+            <div class="blog-entry align-self-stretch d-flex">
+              <a href="blog-single.html" class="block-20 order-md-last" style="background-image: url('/static/images/image_3.jpg');">
+              </a>
+              <div class="text p-4 d-block">
+              	<div class="meta mb-3">
+                  <!-- <div><a href="#">August 12, 2018</a></div>
+                  <div><a href="#">Admin</a></div>
+                  <div><a href="#" class="meta-chat"><span class="icon-chat"></span> 3</a></div>
+                </div> -->
+                <h3 class="heading mt-3"><a href="https://www.mohfw.gov.in/">Ministry of Health and Family Welfare</a></h3>
+                <p>Official page of MHFW India</p>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+		
+		<section class="ftco-section-parallax">
+      <div class="parallax-img d-flex align-items-center">
+        <div class="container">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+              <h2>Subcribe to our alerts and services</h2>
+              <p>We provide various services for public support awareness and support.</p>
+              <div class="row d-flex justify-content-center mt-5">
+                <div class="col-md-8">
+                  <form action="https://forms.gle/Zoy7fdPB59ztWmxF9" class="subscribe-form">
+                    <div class="form-group d-flex">
+                      <input type="text" class="form-control" placeholder="Enter email address">
+                      <input type="submit" value="Subscribe" class="submit px-3">
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="ftco-footer ftco-bg-dark ftco-section img" style="background-image: url(/static/images/bg_5.jpg);">
+    	<div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Covid-19 Analysis Dashboard</h2>
+              <p>Just a small contribution towards spreading awareness during this pandemic.</p>
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate">
+
+                  <a href="https://twitter.com/SubhamK85866012?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @SubhamK85866012</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></li>
+                <br>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Information</h2>
+              <ul class="list-unstyled">
+              	<li><a href="https://forms.gle/Zoy7fdPB59ztWmxF9" class="nav-link" data-toggle="modal">Feedback/Subscribe</a></li>
+                <li><a href="#" class="py-2 d-block">Our Specialties</a></li>
+                <li><a href="#" class="py-2 d-block">Why Choose us</a></li>
+                <li><a href="#" class="py-2 d-block">Our Services</a></li>
+                <li><a href="#" class="py-2 d-block">health Tips</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Site Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="#" class="py-2 d-block">Home</a></li>
+                <li><a href="#" class="py-2 d-block">About</a></li>
+                <li><a href="#" class="py-2 d-block">All services</a></li>
+                
+                <li><a href="#" class="py-2 d-block">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+            	<h2 class="ftco-heading-2">Have a Questions?</h2>
+            	<div class="block-23 mb-3">
+	              <ul>
+	                <li><span class="icon icon-map-marker"></span><span class="text">We are OMNIPRESENT !!</span></li>
+	                <li><a href="#"><span class="icon icon-phone"></span><span class="text">7682025131</span></a></li>
+	                <li><a href="#"><span class="icon icon-envelope"></span><span class="text">sksplay7@gmail.com</span></a></li>
+	              </ul>
+	            </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="/static/js/jquery.min.js"></script>
+  <script src="/static/js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="/static/js/popper.min.js"></script>
+  <script src="/static/js/bootstrap.min.js"></script>
+  <script src="/static/js/jquery.easing.1.3.js"></script>
+  <script src="/static/js/jquery.waypoints.min.js"></script>
+  <script src="/static/js/jquery.stellar.min.js"></script>
+  <script src="/static/js/owl.carousel.min.js"></script>
+  <script src="/static/js/jquery.magnific-popup.min.js"></script>
+  <script src="/static/js/aos.js"></script>
+  <script src="/static/js/jquery.animateNumber.min.js"></script>
+  <script src="/static/js/bootstrap-datepicker.js"></script>
+  <script src="/static/js/jquery.timepicker.min.js"></script>
+  <script src="/static/js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="/static/js/google-map.js"></script>
+  <script src="/static/js/main.js"></script>
+    
+  </body>
+</html>
