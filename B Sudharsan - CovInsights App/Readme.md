@@ -22,3 +22,15 @@
 
 #### Dataset Source
  - Taken from The ADB Data Library (Impact until March 31st, 2020)
+
+ #### App Screenshots
+
+ <img src="https://github.com/Sudz24/DigitalOcean/blob/master/B%20Sudharsan%20-%20CovInsights%20App/App%20Screenshots/Home.png" height="20%" width="20%"/>
+
+ <img src="https://github.com/Sudz24/DigitalOcean/blob/master/B%20Sudharsan%20-%20CovInsights%20App/App%20Screenshots/Reports.png" height="20%" width="20%"/>
+
+ <img src="https://github.com/Sudz24/DigitalOcean/blob/master/B%20Sudharsan%20-%20CovInsights%20App/App%20Screenshots/GDPs.png" height="20%" width="20%"/>
+
+ <img src="https://github.com/Sudz24/DigitalOcean/blob/master/B%20Sudharsan%20-%20CovInsights%20App/App%20Screenshots/Predicted Impact.png" height="20%" width="20%"/>
+
+ !<img src="https://github.com/Sudz24/DigitalOcean/blob/master/B%20Sudharsan%20-%20CovInsights%20App/App%20Screenshots/Most Affected Countries.png" height="20%" width="20%"/>
