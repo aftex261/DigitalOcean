@@ -3,7 +3,7 @@ from flask_mail import Mail, Message
 import json 
 import sqlalchemy
 from sqlalchemy import or_,desc
-from tables import db,GDPs, Impact
+from tables import db,GDPs, Impact, ImpactPredicted
 
 app = Flask(__name__)
 app.config['MAIL_SERVER'] = 'smtp.googlemail.com'
@@ -78,7 +78,7 @@ def getImpactPredicted():
         content = json.loads(request.data)
         country= content['country']
 
-        result = Impact.query.filter_by(Economy=country).all()
+        result = ImpactPredicted.query.filter_by(Economy=country).all()
         
         values = []
         for row in result:

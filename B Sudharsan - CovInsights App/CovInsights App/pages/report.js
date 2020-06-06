@@ -120,7 +120,7 @@ export default class Report extends Component {
             />
         </View>
 
-        <TouchableOpacity onPress={()=> this.submitMail()} style={{ justifyContent:'center', alignItems:'center', marginTop:30, backgroundColor:'rgba(21,150,212,0.8)', marginHorizontal: Dimensions.get('window').width-250, padding:10, elevation:1, borderRadius:30}}>
+        <TouchableOpacity onPress={()=> this.submitMail()} style={{ justifyContent:'center', alignItems:'center', marginTop:30, backgroundColor:'rgba(21,150,212,0.8)', marginHorizontal: 80, padding:10, elevation:1, borderRadius:30}}>
             <Text style={{ color:'white', textAlign:'center', fontWeight:'bold'}}>
                 Subscribe
             </Text>
