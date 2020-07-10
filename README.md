@@ -10,7 +10,7 @@
 
 🤝 <img src="https://cdn2.iconfinder.com/data/icons/social-media-2285/512/1_Linkedin_unofficial_colored_svg-512.png" height="28" width="28"> [LinkedIn](https://www.linkedin.com/in/aditya-g-205674193/)
 
-🎊 <img src="https://media-exp1.licdn.com/dms/image/C5622AQGJNpz5A0YyBA/feedshare-shrink_1280/0?e=1594252800&v=beta&t=GUySxSdC2lOK1A2MVKX24DttiFGRz_sH_WcCjy281wg" height="300" width="300">
+🎊 <img src="Mentor.jpg" height="300" width="300">
 
 # Challenge Documentation :- 
 
